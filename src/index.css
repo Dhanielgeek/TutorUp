@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.Mobile{
+    width: 30%;
+    height: 100%;
+    display: none;
+}
+.Image-Part{
+    width: 50%;
+    height: 100%;
+    background-image: url('.././src/assets/Group\ 9.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 500px) {
+    .Mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Image-Part {
+        width: 100%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+    .Mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
