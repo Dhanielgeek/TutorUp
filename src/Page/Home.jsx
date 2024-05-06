@@ -1,4 +1,6 @@
+import Access from "./Access"
 import Hero from "./Hero"
+import MakeTu from "./MakeTu"
 import OurProgram from "./OurProgram"
 
 
@@ -7,6 +9,8 @@ const Home = () => {
     <>
         <Hero/>
         <OurProgram/>
+        <Access/>
+        <MakeTu/>
     </>
   )
 }
