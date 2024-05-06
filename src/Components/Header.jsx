@@ -15,7 +15,7 @@ const HandleToggle = ()=>{
 }
 
   return (
-    <div className="w-[100%] h-[13vh] bg-[#17B7C1] flex justify-around items-center">
+    <div className="w-[100%] h-[12vh] bg-[#17B7C1] flex justify-around items-center">
         <div className="w-[15%] h-[90%]  flex justify-center items-center">
           <img src={Logo} alt="" className=" h-[100%] w-[90%] object-fill" />
         </div>
